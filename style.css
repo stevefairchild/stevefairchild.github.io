@@ -1,0 +1,67 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+	/*Background image code from css-tricks. The background with no repeat
+	center center fixed give the bg a very responsive page.*/
+	background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	font-size: 3rem;
+	color: #e2dbdb;
+}
+
+hr {
+	border-color: #F05F44;
+	border-width: 3px;
+	/*max-width= the max width of the line*/
+	max-width: 65px;
+
+}
+.buffer {
+	height: 10rem;
+}
+
+
+.buffer2 {
+	height: 5rem;
+}
+.btn {
+	font-weight: 700;
+	/*use border-radius to give border more circuler*/
+	border-radius: 300px;
+	/*text-transform alows to change case, upper case*/
+	text-transform: uppercase;
+}
+
+.btn-primary {
+	background-color: #F05F44;
+	border-color: #F05F44
+}
+.btn-primary:hover {
+	background-color: #ee4b08;
+	border-color:#ee4b08;
+	border-width: 4px;
+}
+
+
+.btn-xl {
+	/*1rem= side and 2remvtop and bottom - makes button larger*/
+	padding: 1rem 2rem; 
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgba(255,0,0,.3);
+   color: white;
+   text-align: center;
+   }
